@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Simão - Portfólio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navegação -->
+    <header>
+        <nav>
+            <div class="logo">Tiago Simão<span>.dev</span></div>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><i class="fas fa-sun toggle-theme"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="img/110579953.jpg" alt="Avatar Tiago Simão" class="avatar">
+                <h1>Meu nome é Tiago Simão</h1>
+                <p>Olá! Sou Tiago Simão, desenvolvedor Java Full Stack com experiência em Java, Spring Boot, Angular e AWS. Crio aplicações web e APIs REST eficientes, aplicando boas práticas de desenvolvimento e soluções escaláveis.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="main-stack">
+                <span>Minha Stack</span>
+                <h2>Desenvolvedor de Software</h2>
+                <div class="stack-icons">
+                    <span class="badge java">Java</span>
+                    <span class="badge ts">TypeScript</span>
+                    <span class="badge angular">Angular</span>
+                    <span class="badge sql">SQL</span>
+                    <span class="badge aws">AWS</span>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Seção Projetos -->
+        <section id="projects" class="projects">
+            <h2>Projetos Desenvolvidos</h2>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="img/api.jpg" alt="Projeto Cadastro de Produto">
+                </div>
+                <div class="project-info">
+                    <h3>Cadastro de Produto</h3>
+                    <p>Esta é uma API REST desenvolvida com Java + Spring Boot, com o objetivo de gerenciar produtos através de operações CRUD (Create, Read, Delete). A aplicação foi projetada seguindo boas práticas de desenvolvimento backend e está hospedada na AWS, utilizando serviços como Elastic Beanstalk e RDS.</p>
+                    <div class="tags">
+                        <span>Angular</span> 
+                        <span>TypeScript</span> 
+                        <span>Java</span> 
+                        <span>MySQL</span>
+                        <span>AWS</span>
+                    </div>
+                    <a href="http://front-produto-demon.s3-website-us-east-1.amazonaws.com/" class="see-project" target="_blank">Veja o projeto</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="img/clone.jpg" alt="Microsoft Clone">
+                </div>
+                <div class="project-info">
+                    <h3>Microsoft Clone</h3>
+                    <p>Projeto desenvolvido com o objetivo de recriar a interface do site oficial da Microsoft, utilizando HTML5, CSS3 e Bootstrap 5, com foco em layout moderno, organização de seções e principalmente responsividade para dispositivos móveis. Este projeto foi feito como prática de front-end, aplicando conceitos reais de estruturação de página, componentes visuais e adaptação de design para diferentes tamanhos de tela.</p>
+                    <div class="tags">
+                        <span>HTML5</span> 
+                        <span>CSS3</span> 
+                        <span>Bootstrap5</span>
+                    </div>
+                    <a href="https://tiagosimaodev.github.io/Microsoft-clone-projects/" class="see-project" target="_blank">Veja o projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Seção Competências -->
+        <section class="competencies">
+            <h2>Competências Principais</h2>
+            <div class="grid-skills">
+                <div class="skill-item"><i class="fab fa-java"></i><p>Java</p></div>
+                <div class="skill-item"><i class="fab fa-js"></i><p>TypeScript</p></div>
+                <div class="skill-item"><i class="fab fa-angular"></i><p>Angular</p></div>
+                <div class="skill-item"><i class="fab fa-aws"></i><p>AWS</p></div>
+                <div class="skill-item"><i class="fab fa-docker"></i><p>Docker</p></div>
+                <div class="skill-item"><i class="fas fa-database"></i><p>PostgreSQL</p></div>
+                <div class="skill-item"><i class="fas fa-code"></i><p>Spring Boot</p></div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Seção Contato -->
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através das redes sociais ou envie um e-mail.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tiagosimaodev/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/TiagoSimaodev/"><i class="fab fa-github"></i></a>
+                <a href="mailto:tiagosimao.dev@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Início</a> 
+            <a href="#projects">Projetos</a> 
+            <a href="#contact">Contato</a>
+        </div>
+        <p>© 2026 Tiago Simão. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
