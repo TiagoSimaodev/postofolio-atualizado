@@ -341,3 +341,16 @@ body.light-theme {
     --accent-color: #0078d4;
     --border-color: #ccc;
 }
+
+
+/* BADGES - padrão (modo escuro) */
+.stack-icons .badge {
+    background: #222;
+    color: #fff;
+}
+
+/* BADGES - modo claro */
+body.light-theme .stack-icons .badge {
+    background: #e5e5e5;
+    color: #0d0d0d;
+}
